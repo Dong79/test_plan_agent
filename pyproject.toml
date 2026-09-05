@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prd-test-agent"
+version = "0.1.0"
+description = "Learning-oriented PRD-to-test-case agent"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.8,<3", "openai>=1.0", "streamlit>=1.38,<2"]
+
+[project.scripts]
+prd-test-agent = "prd_test_agent.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

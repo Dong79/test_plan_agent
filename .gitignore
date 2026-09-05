@@ -1,0 +1,22 @@
+# Python environments and build artifacts
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local secrets and Streamlit configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Generated agent output and local run logs
+test_cases.json
+*.jsonl
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
