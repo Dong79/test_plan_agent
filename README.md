@@ -31,7 +31,6 @@ The default mode is deterministic, so you can study the orchestration without an
 ## Quick start
 
 ```powershell
-cd C:\Users\16692\Documents\Codex\2026-08-28\new-chat\outputs\prd-test-agent
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -e .
